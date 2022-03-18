@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SFProText", sans-serif;
+}
+@font-face {
+    font-family: "SFProDisplay", sans-serif;
+    src: url(./fonts/SF-Pro-Display/SF-Pro-Display-Medium.otf) format("opentype");
+    font-weight: thin;
+}
+@font-face {
+    font-family: "SFProDisplay", sans-serif;
+    src: url(./fonts/SF-Pro-Display/SF-Pro-Display-Regular.otf) format("opentype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "SFProDisplay", sans-serif;
+    src: url(./fonts/SF-Pro-Display/SF-Pro-Display-Semibold.otf) format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "SFProText", sans-serif;
+    src: url(./fonts/SF-Pro-Text/SF-Pro-Text-Regular.otf) format("opentype");
+    font-weight: normal;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: thin;
+    font-size: 12px;
+    width: 100%;
+    background-color: #000000cc;
+    padding: 12px;
+}
+nav {
+    text-align: center;
+}
+ul.navlist li {
+    display: inline-block;
+    padding: 0 19.5px;
+}
+.navlist a{
+    transition: 0.5s;
+}
+.navlist a:hover {
+    color: #ffffff;
+}
+nav a {
+    text-decoration: none;
+    color: #d1d1d3;
+}
+.services {
+    background-color: #f5f5f7;
+    padding: 14px;
+    text-align: center;
+}
+.services p, .services a {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #1d1d1f;
+}
+.services a {
+    text-decoration: none;
+    color: #1a87f5;
+}
+
+/* ---------- products ---------- */
+
+.images {
+    text-align: center;
+}
+.images .img-1 {
+    background-image: url("./images/hero_iphone_13pro__dhnsegysa42u_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 575px;
+    padding: 44px;
+}
+.img-1 .heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    color: #1d1d1f;
+}
+.img-1 .sub-heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding-bottom: 15px;
+    font-size: 28px;
+}
+.link {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    font-size: 21px;
+    color: #1a87f5;
+    text-decoration: none;
+}
+.hover-line:hover {
+    text-decoration: underline #1a87f5;
+}
+
+/* ---------- image 2 ---------- */
+
+.images .img-2 {
+    background-image: url("./images/hero_iphone_13__f194u1rdooeq_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 575px;
+    margin: 10px 0;
+    padding: 44px ;
+}
+.img-2 .heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    color: #ffffff;
+}
+.img-2 .sub-heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding-bottom: 15px;
+    font-size: 28px;
+    color: #F4BAE2;
+}
+.link {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    font-size: 21px;
+    color: #1a87f5;
+    text-decoration: none;
+}
+
+/* ---------- image 3 ---------- */
+
+.images .img-3 {
+    background-image: url("./images/hero_vday22__bt5gpd2vjafm_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 575px;
+    margin: 10px 0;
+    padding: 60px ;
+}
+.img-3 .heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: #643366;
+}
+.img-3 .sub-heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    color: #643366;
+}
+.link {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    font-size: 21px;
+    color: #1a87f5;
+    text-decoration: none;
+}
+
+/* ---------- image 4 ---------- */
+
+div.img-4, div.img-5, div.img-6, div.img-7, div.img-8, div.img-9 {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+.images .img-4 {
+    background-image: url("./images/hero_watch__f05go333pz2i_small.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 575px;
+    margin: 10px 0;
+    padding: 44px;
+}
+.img-4 .new {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #CC2127;
+}
+.img-4 .sub-heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding-bottom: 15px;
+    font-size: 28px;
+    color: #1d1d1f;
+}
+.link {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    font-size: 21px;
+    color: #1a87f5;
+    text-decoration: none;
+}
+
+/* ---------- image 5 ---------- */
+
+.images .img-5 {
+    background-image: url("./images/tile_soip__f0c6lef982em_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 575px;
+    margin: 10px 0;
+    padding: 44px;
+}
+.img-5 .heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    color: #1d1d1f;
+}
+.img-5 .sub-heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding-bottom: 15px;
+    font-size: 28px;
+    color: #1d1d1f;
+}
+.img-5 .link {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    font-size: 21px;
+    color: #1d1d1f;
+    text-decoration: none;
+}
+.img-5 span:hover {
+    text-decoration: underline #1d1d1f;
+}
+
+/* ---------- image 6 ---------- */
+
+.images .img-6 {
+    background-image: url("./images/promo_watch_heart__dlf8uc5h0kae_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 575px;
+    padding: 30px ;
+}
+.img-6 .new {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #CC2127;
+}
+.img-6 .heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #1d1d1f;
+}
+.img-6 .sub-heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+.link {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding: 10px;
+    font-size: 21px;
+    color: #1a87f5;
+    text-decoration: none;
+}
+
+/* ---------- image 7 ---------- */
+
+.images .img-7 {
+    background-image: url("./images/promo_watch__fo7j0tnywi2q_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 575px;
+    padding: 44px ;
+}
+.img-7 .heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+}
+.img-7 .sub-heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+.link {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding: 10px;
+    font-size: 21px;
+    color: #1a87f5;
+    text-decoration: none;
+}
+
+/* ---------- image 8 ---------- */
+
+.images .img-8 {
+    background-image: url("./images/tile__cauwwcyyn9hy_small.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 575px;
+    margin: 10px 5;
+    padding: 44px ;
+}
+.img-8 .sub-heading {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    font-size: 25px;
+    color: #1d1d1f;
+}
+.link {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    font-size: 21px;
+    color: #1a87f5;
+    text-decoration: none;
+}
+
+/* ---------- image 9 ---------- */
+
+.images .img-9 {
+    background-image: url("./images/promo_sky__fu99g2ymabiy_small.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 575px;
+    margin: 10px 0;
+    padding: 30px ;
+}
+.img-9 .play-icon {
+    width: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.img-9 p {
+    margin-top: 300px;
+}
+.img-9 .link {
+    font-family: "SFProDisplay", sans-serif;
+    font-weight: normal;
+    padding-top: 25px;
+    font-size: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.img-9 a:hover {
+    text-decoration: underline 2px #ffffff;
+}
+
+/* ---------- last-container ---------- */
+
+.last-container {
+    background-color: #F5F5F7;
+    color: #9999a1;
+    padding: 20px 180px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.columns {
+    align-items: top;
+    padding: 20px;
+}
+.columns li {
+    margin: 10px;
+}
+.last-container a {
+    text-decoration: none;
+    color: #9999a1;
+}
+.last-container a:hover {
+    text-decoration: underline #9999a1;
+}
+b {
+    color: #1d1d1f;
+}
+.text ol, .columns ul {
+    list-style: none;
+}
+.point-1 {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+.columns {
+    position: relative;
+    height: 450px;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5 {
+    display: inline-block;
+    min-width: 184px;
+}
+.col-1 ul {
+    position: absolute;
+}
+.col-2 ul {
+    position: absolute;
+}
+.col-3 ul {
+    position: absolute;
+}
+.col-4 ul {
+    position: absolute;
+}
+.col-5 ul {
+    position: absolute;
+}
+.more-ways {
+    padding: 20px 0 10px;
+}
+.more-ways a {
+    color: #1a87f5;
+}
+.more-ways a:hover {
+    text-decoration: underline #1a87f5;
+}
+.footer {
+    padding: 10px 0;
+}
+.footer ul, .footer li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.partition {
+    border-left: 1px solid #9999a1;
+}
+.footer p {
+    display: inline-block;
+}
+.footer p.para1 {
+    padding-right: 10px;
+}
+.footer p.para2 {
+    padding-left: 130px;
+}
